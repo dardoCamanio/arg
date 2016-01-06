@@ -1,0 +1,10 @@
+--log file by yo--
+
+
+::1;sdf@df;sdfsdf;Firefox 38.0;hijode puta [removed]</>;
+::1;dfg@sfsdf.com;kjhkjh;Firefox 38.0;hola mensaje completo;
+::1;esta@gmail.com;mi nombre;Firefox 38.0;este es el mensaje aqui tag  gracias;
+::1;esta@gmail.com;mi nombre;Firefox 38.0;este es el mensaje aqui tag  gracias;
+::1;esta@gmail.com;mi nombre;Firefox 38.0;este es el mensaje aqui tag  gracias;
+::1;esta@gmail.com;mi nombre;Firefox 38.0;este es el mensaje aqui tag  gracias;
+::1;esta@gmail.com;mi nombre;Firefox 38.0;este es el mensaje aqui tag  gracias;

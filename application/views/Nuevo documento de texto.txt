@@ -1,0 +1,223 @@
+<div class="revolution-container">
+                <div class="revolution">
+				                    <ul class="list-unstyled">	<!-- SLIDE  -->
+						
+													<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+								<!-- MAIN IMAGE -->
+								<img src=<?php echo base_url()."images/images/slider1.png"; ?>  alt="slidebg1"  data-bgfit="cover"  data-bgposition="center center" data-bgrepeat="no-repeat">
+								
+								<div class="tp-caption skewfromrightshort customout"
+									 data-x="20"
+									 data-y="224"
+									 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									 data-speed="1000"
+									 data-start="500"
+									 data-easing="Power4.easeOut"
+									 data-endspeed="500"
+									 data-endeasing="Power4.easeIn"
+									 data-captionhidden="on"
+									 style="z-index: 4">
+								   <div class="mst-text-big" style="color: #ed4047;" >New Style</div>
+								</div>
+								<div class="tp-caption skewfromrightshort customout"
+									 data-x="20"
+									 data-y="335"
+									 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									 data-speed="500"
+									 data-start="700"
+									 data-easing="Power4.easeOut"
+									 data-endspeed="500"
+									 data-endeasing="Power4.easeIn"
+									 data-captionhidden="on"
+									 style="z-index: 4">
+									<span class="mst-text-medium" style="color: #ffffff;" >Sale 70% off</span>
+								</div>
+								<div class="tp-caption customin customout hidden-xs"
+									 data-x="20"
+									 data-y="430"
+									 data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+									 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									 data-speed="500"
+									 data-start="1000"
+									 data-easing="Power4.easeOut"
+									 data-endspeed="500"
+									 data-endeasing="Power4.easeIn"
+									 data-captionhidden="on"
+									 style="z-index: 2">
+									<a href="#" class="btn-home">Shop All</a>
+								</div>
+								<div class="tp-caption customin customout hidden-xs"
+									 data-x="145"
+									 data-y="430"
+									 data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+									 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									 data-speed="500"
+									 data-start="1200"
+									 data-easing="Power4.easeOut"
+									 data-endspeed="500"
+									 data-endeasing="Power4.easeIn"
+									 data-captionhidden="on"
+									 style="z-index: 2">
+									<a href="#" class="btn-home read-more">Read more</a>
+								</div>
+							</li>
+													<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+								<!-- MAIN IMAGE -->
+								<img src=<?php echo base_url()."images/images/slider2.png"; ?>  alt="slidebg1"  data-bgfit="cover"  data-bgposition="center center" data-bgrepeat="no-repeat">
+								
+								<div class="tp-caption skewfromrightshort customout"
+									 data-x="20"
+									 data-y="224"
+									 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									 data-speed="500"
+									 data-start="500"
+									 data-easing="Power4.easeOut"
+									 data-endspeed="500"
+									 data-endeasing="Power4.easeIn"
+									 data-captionhidden="on"
+									 style="z-index: 4">
+								   <div class="mst-text-big" style="color: #ed4047;" >New Style</div>
+								</div>
+								<div class="tp-caption skewfromrightshort customout"
+									 data-x="20"
+									 data-y="335"
+									 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									 data-speed="500"
+									 data-start="700"
+									 data-easing="Power4.easeOut"
+									 data-endspeed="500"
+									 data-endeasing="Power4.easeIn"
+									 data-captionhidden="on"
+									 style="z-index: 4">
+									<span class="mst-text-medium" style="color: #ffffff;" >Sale 70% off</span>
+								</div>
+								<div class="tp-caption customin customout hidden-xs"
+									 data-x="20"
+									 data-y="430"
+									 data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+									 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									 data-speed="500"
+									 data-start="1000"
+									 data-easing="Power4.easeOut"
+									 data-endspeed="500"
+									 data-endeasing="Power4.easeIn"
+									 data-captionhidden="on"
+									 style="z-index: 2">
+									<a href="#" class="btn-home">Shop All</a>
+								</div>
+								<div class="tp-caption customin customout hidden-xs"
+									 data-x="145"
+									 data-y="430"
+									 data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+									 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									 data-speed="500"
+									 data-start="1200"
+									 data-easing="Power4.easeOut"
+									 data-endspeed="500"
+									 data-endeasing="Power4.easeIn"
+									 data-captionhidden="on"
+									 style="z-index: 2">
+									<a href="#" class="btn-home read-more">Read more</a>
+								</div>
+							</li>
+													<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
+								<!-- MAIN IMAGE -->
+								<img src=<?php echo base_url()."images/images/slider3.png"; ?>  alt="slidebg1"  data-bgfit="cover"  data-bgposition="center center" data-bgrepeat="no-repeat">
+								
+								<div class="tp-caption skewfromrightshort customout"
+									 data-x="20"
+									 data-y="224"
+									 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									 data-speed="500"
+									 data-start="500"
+									 data-easing="Power4.easeOut"
+									 data-endspeed="500"
+									 data-endeasing="Power4.easeIn"
+									 data-captionhidden="on"
+									 style="z-index: 4">
+								   <div class="mst-text-big" style="color: #ed4047;" >New Style</div>
+								</div>
+								<div class="tp-caption skewfromrightshort customout"
+									 data-x="20"
+									 data-y="335"
+									 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									 data-speed="500"
+									 data-start="700"
+									 data-easing="Power4.easeOut"
+									 data-endspeed="500"
+									 data-endeasing="Power4.easeIn"
+									 data-captionhidden="on"
+									 style="z-index: 4">
+									<span class="mst-text-medium" style="color: #ffffff;" >Sale 70% off</span>
+								</div>
+								<div class="tp-caption customin customout hidden-xs"
+									 data-x="20"
+									 data-y="430"
+									 data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+									 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									 data-speed="500"
+									 data-start="1000"
+									 data-easing="Power4.easeOut"
+									 data-endspeed="500"
+									 data-endeasing="Power4.easeIn"
+									 data-captionhidden="on"
+									 style="z-index: 2">
+									<a href="#" class="btn-home">Shop All</a>
+								</div>
+								<div class="tp-caption customin customout hidden-xs"
+									 data-x="145"
+									 data-y="430"
+									 data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:3;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+									 data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+									 data-speed="500"
+									 data-start="1200"
+									 data-easing="Power4.easeOut"
+									 data-endspeed="500"
+									 data-endeasing="Power4.easeIn"
+									 data-captionhidden="on"
+									 style="z-index: 2">
+									<a href="#" class="btn-home read-more">Read more</a>
+								</div>
+							</li>
+												                       
+
+                    </ul>
+                    <div class="revolutiontimer"></div>
+				                </div>
+            </div>
+
+
+
+
+
+
+<script>	
+	var mst = jQuery.noConflict();
+	mst(document).ready(function($){
+		$('.revolution').revolution({
+        delay: 9000,
+        startwidth: 1000,
+        startheight: 500,
+        hideThumbs: 10,
+        fullWidth: "on",
+        
+        navigationType: "none",
+        navigationArrows: "solo",
+        navigationStyle: "round",
+        navigationHAlign: "center",
+        navigationVAlign: "bottom",
+        navigationHOffset: 30,
+        navigationVOffset: 30,
+        soloArrowLeftHalign: "left",
+        soloArrowLeftValign: "center",
+        soloArrowLeftHOffset: 20,
+        soloArrowLeftVOffset: 0,
+        soloArrowRightHalign: "right",
+        soloArrowRightValign: "center",
+        soloArrowRightHOffset: 20,
+        soloArrowRightVOffset: 0,
+        touchenabled: "on"
+
+    });			
+	})
+</script>
