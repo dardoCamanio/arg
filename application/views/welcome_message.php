@@ -431,7 +431,7 @@ END featured product -->
             e.preventDefault();
             $(".iptSend").css('disabled', 'disabled').val("Sending...");
             //var actionContato = "http://arg-infografia.rhcloud.com/contact/ajax.php";
-            var actionContato = "https://obscure-shore-6930.herokuapp.com/welcome/post_contact";
+            var actionContato = "https://obscure-shore-6930.herokuapp.com/arg/index.php/welcome/post_contact";
             $form = $('.form-horizontal');
 
             //var success = "Thanks! Message send.";
