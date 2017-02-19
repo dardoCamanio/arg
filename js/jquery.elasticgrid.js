@@ -7,7 +7,7 @@ $(function(){
 
                 {
                     'title'         : 'Documentación de Obra',
-                    'description'   : 'Esta es la documentación escencial para administrar y dirigir',
+                    'description'   : 'Documentación escencial para administrar y dirigir',
                     'thumbnail'     : ['images/4-thumb.png', 'images/5-thumb.png', 'images/6-thumb.png', 'images/7-thumb.png', 'images/8-thumb.png', 'images/9-thumb.png', 'images/10-thumb.png'],
                     'large'         : ['images/4.png', 'images/5.png', 'images/6.png', 'images/7.png', 'images/8.png', 'images/9.png', 'images/10.png'],
                     

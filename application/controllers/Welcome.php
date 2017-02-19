@@ -52,17 +52,52 @@ class Welcome extends CI_Controller {
 		//echo $this->agent->platform(); // Platform info (Windows, Linux, Mac, etc.)
 	}
 
-	public function index()
-	{
+	public function fecha(){
 		$format = 'DATE_RFC822';
 		$time = now('America/Argentina/Buenos_Aires');
-		$data['fecha'] = standard_date($format, $time);
+		return standard_date($format, $time);
+	}
 
+	public function index()
+	{
+		
+		$data['fecha'] = $this->fecha();
 		$data['ip_remota'] = $this->input->ip_address();
 		
 		$txt = "\n".$data['ip_remota'].";"."acceso".";".$data['fecha'].";".$this->agente().";";
-		write_file('application/logs/accesos.txt', $txt, 'a+');
+		write_file('./data/accesos.txt', $txt, 'a+');
 		$this->load->view('welcome_message');
+	}
+
+	public function get_prueba()
+	{
+		echo "hola";
+	}
+
+	public function upload($archivo)
+	{
+		if(file_exists('./dropbox/vendor/autoload.php')){
+		    require './dropbox/vendor/autoload.php';
+		    require './data/backup.php';    
+
+		    //set access token
+		    $token = 'L_UDHFPmtJYAAAAAAAAA-cF7a_AtTcb19EwVU0hMMLz6yzdq6P1hmOsBLoQFTt7B';
+		    $project = './data/';
+		    $projectFolder = date('l');
+
+		    $bk = new Backup($token,$project,$projectFolder);
+		    if($bk->upload($archivo)){
+		    	return true;
+		    	exit;	
+		    }
+		    return false;
+
+		} else {
+		    echo "<h1>Please install via composer.json</h1>";
+		    echo "<p>Install Composer instructions: <a href='https://getcomposer.org/doc/00-intro.md#globally'>https://getcomposer.org/doc/00-intro.md#globally</a></p>";
+		    echo "<p>Once composer is installed navigate to the working directory in your terminal/command prompt and enter 'composer install'</p>";
+		    exit;
+		}
 	}
 
 	public function post_contact()
@@ -71,22 +106,29 @@ class Welcome extends CI_Controller {
 		// convert_accented_characters($nombre)
 		$data['mensaje'] = $this->security->xss_clean(strip_tags($_POST['txt-msg']));
 		$data['email'] = $this->security->xss_clean(strip_tags($_POST['txt-email']));
-		$data['nombre'] = $this->security->xss_clean(strip_tags($_POST['txt-email']));
+		$data['nombre'] = $this->security->xss_clean(strip_tags($_POST['txt-nome']));
 		$data['agente'] = $this->agente();
 		$data['ip_remota'] = $this->input->ip_address();
-		$txt = "\n".$data['ip_remota'].";".$data['email'].";".$data['nombre'].";".$data['agente'].";".$data['mensaje'].";";
-		write_file('application/logs/data.txt', $txt, 'a+');
+		$data['fecha'] = $this->fecha();
+		$txt = "\n".$data['ip_remota'].";".$data['email'].";".$data['nombre'].";".$data['agente'].";".$data['mensaje'].";".$data['fecha'].";";
+		write_file('./data/data.txt', $txt, 'w');
+		if($this->upload('./data/data.txt')){
+			echo 'ok';
+		}
+		
 		//$this->load->view('welcome_prueba',$data);
-		$this->load->library('email');
+		/*$this->load->library('email');
 		
 		$this->email->from('email@email.com', 'Name');
 		$this->email->to('ecam.construcciones@gmail.com');
 		$this->email->subject('subject');
 		$this->email->message('message'.$data['mensaje']);
 		
-		$this->email->send();
+		$this->email->send();*/
 		
-		echo $data['mensaje'];
+		return "error";
 	}
+
+
 	
 }

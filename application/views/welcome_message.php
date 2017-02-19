@@ -50,13 +50,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="main_slider">
                         <ul class="slides">
                             <li class="flex-active-slide">
-                                <h2 class="title"><p class="myfont">INFOGRAFIA PROFESIONAL</p></h2>
+                                <h2 class="title">INFOGRAFIA PROFESIONAL</h2>
                             </li>
                             <li>
                                 <h2 class="title">DOCUMENTACION</h2>
                             </li>
                             <li>
-                                <h2 class="title"><p class="myfont">BASADA EN MODELO 3D</p></h2>
+                                <h2 class="title">BASADA EN MODELO 3D</h2>
                             </li>
                             <li>
                                 <h2 class="title">RENDERS ANIMACIONES</h2>
@@ -252,7 +252,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </p>
                     </div>
 
-                    <div id="elastic_grid_demo"></div>
+                    <div id="elastic_grid_demo" onclick="toBlank()"></div>
 
                 </div>
 
@@ -322,7 +322,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
                     <div class="contact_left">
                         <div>
-                            <h2>VISITANOS EN TANDIL</h2>
+                          <!--   <h2>VISITANOS EN TANDIL</h2>
 
                             <p class="sepTeam"></p>
 
@@ -330,7 +330,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 (7000) Prov Buenos Aires<br/>
                                 
                                 Argentina<br/>
-                            </p>
+                            </p> -->
                         </div>
                         
                         
@@ -426,13 +426,21 @@ END featured product -->
 <script type="text/javascript" src="js/main.js"></script>
 
 <script type="text/javascript">
+    function toBlank(){
+        if(document.getElementsByClassName("link-button first")[0].getAttribute("target") != "_blank"){
+            document.getElementsByClassName("link-button first")[0].setAttribute("target", "_blank");
+        }
+        if(document.getElementsByClassName("link-button")[1].setAttribute("target", "_blank") != "_blank"){
+            document.getElementsByClassName("link-button")[1].setAttribute("target", "_blank");
+        }
+    }
     $(document).ready(function() {
         $(".form-horizontal").on("submit",function(e){
             e.preventDefault();
             $(".iptSend").css('disabled', 'disabled').val("Sending...");
-            //var actionContato = "http://arg-infografia.rhcloud.com/contact/ajax.php";
-            var actionContato = "https://obscure-shore-6930.herokuapp.com/index.php/welcome/post_contact";
-            $form = $('.form-horizontal');
+                var actionContato = "https://obscure-shore-6930.herokuapp.com/index.php/welcome/post_contact";
+          //    var actionContato = "http://localhost/arg/index.php/welcome/post_contact";
+                $form = $('.form-horizontal');
 
             //var success = "Thanks! Message send.";
             function dismissContato(){
@@ -461,7 +469,14 @@ END featured product -->
             });
             return false;
         });
+
+
+        // Controlamos que si pulsamos escape se cierre el div
+        
+           
     });
+        
+    
 </script>
 
 </body>

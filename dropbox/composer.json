@@ -1,0 +1,6 @@
+{
+    "require": {
+        "php": ">=5.5.9",
+        "dropbox/dropbox-sdk": "1.1.*"
+    }
+}
