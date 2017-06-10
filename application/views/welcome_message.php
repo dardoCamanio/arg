@@ -399,7 +399,7 @@ END featured product -->
                         <a href="#"><i class="fa fa-vimeo-square"></i></a>
                         <a href="#"><i class="fa fa-soundcloud"></i></a>
                     </div>
-                    <h3>2015 © Infografía Arg. All rights reserved.</h3>
+                    <h3>2015 © Infografía Arg. All rights reserved. ecam.construcciones@gmail.com</h3>
                 </div>
             </div>
         </div>
